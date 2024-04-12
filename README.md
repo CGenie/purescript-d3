@@ -1,5 +1,7 @@
 # purescript-d3
 
+FFI to [d3](https://d3js.org/).
+
 ### Example
 
 Here is the JavaScript code from [part 1](http://bl.ocks.org/mbostock/7322386) of Mike Bostock's [Let's Make a Bar Chart](http://bost.ocks.org/mike/bar/) series of tutorials for D3:

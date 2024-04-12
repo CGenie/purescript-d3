@@ -1,0 +1,31 @@
+workspace:
+  packageSet:
+    registry: 50.7.0
+  extraPackages:
+    dom-simple:
+      git: https://github.com/garganscript/purescript-dom-simple.git
+      ref: v0.4.0
+    ffi-simple:
+      git: https://github.com/garganscript/purescript-ffi-simple.git
+      ref: v0.5.1
+
+package:
+  name: d3
+  dependencies:
+    - aff: ">=7.1.0 <8.0.0"
+    - aff-promise: ">=4.0.0 <5.0.0"
+    - dom-simple: "*"
+    - effect: ">=4.0.0 <5.0.0"
+    - exceptions: ">=6.0.0 <7.0.0"
+    - foreign: ">=7.0.0 <8.0.0"
+    - functions: ">=6.0.0 <7.0.0"
+    - js-date: ">=8.0.0 <9.0.0"
+    - maybe: ">=6.0.0 <7.0.0"
+    - prelude: ">=6.0.1 <7.0.0"
+    - small-ffi: ">=4.0.1 <5.0.0"
+    - tuples: ">=7.0.0 <8.0.0"
+    - web-dom: ">=6.0.0 <7.0.0"
+  test:
+    main: Test.Main
+    dependencies:
+      - spec
